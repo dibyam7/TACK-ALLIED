@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Learning Platform</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #00ffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #1a1a1a;
+            margin: 0;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #00ffcc;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+
+        .lesson {
+            margin-bottom: 20px;
+        }
+
+        .lesson h2 {
+            color: #00ffff;
+            text-shadow: 0 0 5px #00ffff;
+        }
+
+        .lesson p {
+            margin: 10px 0;
+        }
+
+        .lesson a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        .lesson a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coding for Students</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#c">C</a></li>
+            <li><a href="#java">Java</a></li>
+            <li><a href="#python">Python</a></li>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#cpp">C++</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="lesson" id="c">
+            <h2>C Programming</h2>
+            <p>Learn the basics of C, a foundational language for programming. Start with <a href="https://www.w3schools.com/c/" target="_blank">W3Schools C Tutorial</a>.</p>
+            <p>Example: <code>printf("Hello, World!");</code></p>
+        </div>
+
+        <div class="lesson" id="java">
+            <h2>Java Programming</h2>
+            <p>Explore Java, widely used for apps and websites. Check out <a href="https://www.w3schools.com/java/" target="_blank">W3Schools Java Tutorial</a>.</p>
+            <p>Example: <code>System.out.println("Hello, World!");</code></p>
+        </div>
+
+        <div class="lesson" id="python">
+            <h2>Python Programming</h2>
+            <p>Python is beginner-friendly and versatile. Start with <a href="https://www.w3schools.com/python/" target="_blank">W3Schools Python Tutorial</a>.</p>
+            <p>Example: <code>print("Hello, World!")</code></p>
+        </div>
+
+        <div class="lesson" id="html">
+            <h2>HTML</h2>
+            <p>Learn HTML to build web pages. Visit <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a>.</p>
+            <p>Example: <code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code></p>
+        </div>
+
+        <div class="lesson" id="cpp">
+            <h2>C++ Programming</h2>
+            <p>Master C++ for performance-critical applications. See <a href="https://www.w3schools.com/cpp/" target="_blank">W3Schools C++ Tutorial</a>.</p>
+            <p>Example: <code>cout << "Hello, World!" << endl;</code></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Coding for Students. All rights reserved.</p>
+    </footer>
+</body>
+</html>
